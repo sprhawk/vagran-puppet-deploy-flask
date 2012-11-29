@@ -1,4 +1,4 @@
-class packages::vim{
+class packages::tmux{
     package { "tmux":
         ensure => present,
     }

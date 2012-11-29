@@ -10,6 +10,7 @@ Vagrant::Config.run do |config|
   config.vm.box = "debian-squeeze-6.0-i386"
   config.vm.forward_port 80, 1111
   config.vm.forward_port 5000, 5000
+  config.vm.forward_port 8088, 8088 
 
   config.vm.provision :puppet , :module_path => "modules" , :options => "--verbose" do |puppet|
     puppet.manifests_path = "manifests"
