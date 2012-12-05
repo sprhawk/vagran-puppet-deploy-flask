@@ -5,7 +5,7 @@ class python {
     package { ["python-pip", "python-distribute", "python-setuptools"]:
         ensure => present,
     } 
-    package { ["python-virtualenv"]:
+    package { "python-virtualenv":
         ensure => present,
     }
 }
