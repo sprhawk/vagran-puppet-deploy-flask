@@ -1,0 +1,15 @@
+Flask==0.9
+Flask-SQLAlchemy==0.16
+Flask-WTF==0.8
+Jinja2==2.6
+MySQL-python==1.2.4c1
+PIL==1.1.7
+PyChecker==0.8.18
+Pymacs==0.23
+SQLAlchemy==0.7.9
+WTForms==1.0.2
+Werkzeug==0.8.3
+distribute==0.6.30
+qrcode==2.4.2
+virtualenv==1.4.9
+wsgiref==0.1.2
