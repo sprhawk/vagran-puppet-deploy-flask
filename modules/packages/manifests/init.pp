@@ -3,4 +3,5 @@ class packages{
     include packages::emacs
     include packages::vim
     include packages::tmux
+    include packages::curl
 }
