@@ -1,0 +1,23 @@
+[user]
+	name = sprhawk
+	email = hongbo@yang.me
+[github]
+	user = sprhawk
+	token = 75e20b129efd62603e7193622fde1d16
+[core]
+	excludesfile = /Users/sprhawk/.global_gitignore
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    ll = log --name-status
+[diff "localizablestrings"]
+    textconv = "iconv -f utf-16 -t utf-8"
+[color]
+	ui = auto
+[credential]
+	helper = osxkeychain
+[push]
+	default = matching
